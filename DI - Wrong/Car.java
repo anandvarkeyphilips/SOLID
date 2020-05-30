@@ -1,9 +1,9 @@
 public class Car {
     private final PetrolEngine engine;
 
-    public Car() {
+    public Car(PetrolEngine petrolEngine) {
 
-        engine = new PetrolEngine(107.2f, 20.4f, 7372.50f);
+        engine = petrolEngine;
     }
 
     public void start() {
